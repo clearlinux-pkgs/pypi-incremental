@@ -4,7 +4,7 @@
 #
 Name     : pypi-incremental
 Version  : 21.3.0
-Release  : 3
+Release  : 4
 URL      : https://files.pythonhosted.org/packages/4f/c5/430765c697afc217c8491785de321a21fa4d983dda14bcd82feb965b0593/incremental-21.3.0.tar.gz
 Source0  : https://files.pythonhosted.org/packages/4f/c5/430765c697afc217c8491785de321a21fa4d983dda14bcd82feb965b0593/incremental-21.3.0.tar.gz
 Summary  : A small library that versions your Python projects.
