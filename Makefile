@@ -1,5 +1,5 @@
 PKG_NAME := pypi-incremental
-URL = https://files.pythonhosted.org/packages/ea/83/1afcf0023de837cc9102c23ea8d0748d36a062dfe4e69927a73ecccaaba4/incremental-24.7.1.tar.gz
+URL = https://files.pythonhosted.org/packages/27/87/156b374ff6578062965afe30cc57627d35234369b3336cf244b240c8d8e6/incremental-24.7.2.tar.gz
 ARCHIVES = 
 
 include ../common/Makefile.common
