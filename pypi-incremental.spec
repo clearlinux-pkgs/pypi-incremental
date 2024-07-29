@@ -6,10 +6,10 @@
 # autospec commit: 356da62
 #
 Name     : pypi-incremental
-Version  : 24.7.0
-Release  : 13
-URL      : https://files.pythonhosted.org/packages/64/91/a16eadd6a5b0666a2bbfe8921d5c84e6367ccea6cca08d34d260da4fa81f/incremental-24.7.0.tar.gz
-Source0  : https://files.pythonhosted.org/packages/64/91/a16eadd6a5b0666a2bbfe8921d5c84e6367ccea6cca08d34d260da4fa81f/incremental-24.7.0.tar.gz
+Version  : 24.7.1
+Release  : 14
+URL      : https://files.pythonhosted.org/packages/ea/83/1afcf0023de837cc9102c23ea8d0748d36a062dfe4e69927a73ecccaaba4/incremental-24.7.1.tar.gz
+Source0  : https://files.pythonhosted.org/packages/ea/83/1afcf0023de837cc9102c23ea8d0748d36a062dfe4e69927a73ecccaaba4/incremental-24.7.1.tar.gz
 Summary  : A small library that versions your Python projects.
 Group    : Development/Tools
 License  : MIT
@@ -64,10 +64,10 @@ python3 components for the pypi-incremental package.
 
 
 %prep
-%setup -q -n incremental-24.7.0
-cd %{_builddir}/incremental-24.7.0
+%setup -q -n incremental-24.7.1
+cd %{_builddir}/incremental-24.7.1
 pushd ..
-cp -a incremental-24.7.0 buildavx2
+cp -a incremental-24.7.1 buildavx2
 popd
 
 %build
@@ -75,7 +75,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1722006898
+export SOURCE_DATE_EPOCH=1722274797
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
